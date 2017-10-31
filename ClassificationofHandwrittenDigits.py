@@ -16,14 +16,43 @@ def display(image,label):
 X_train_3D = idx2numpy.convert_from_file('train-images.idx3-ubyte')
 X_train = X_train_3D.flatten().reshape(60000,784)
 
-y_train = idx2numpy.convert_from_file('train-labels.idx1-ubyte').reshape(60000,1)
+y_train = idx2numpy.convert_from_file('train-labels.idx1-ubyte')
+
 
 #Extract Test set
 X_test_3D = idx2numpy.convert_from_file('t10k-images.idx3-ubyte')
 X_test =  X_test_3D.flatten().reshape(10000,784)
 
-y_test = idx2numpy.convert_from_file('t10k-labels.idx1-ubyte').reshape(10000,1)
+y_test = idx2numpy.convert_from_file('t10k-labels.idx1-ubyte')#.reshape(10000,1)
 
 #print sample images 
 for i in range(10):
-    display(X_train[i],y_train[i][0])
+    display(X_train[i],y_train[i])
+    
+# Fitting Logistic Regression
+from sklearn.linear_model import LogisticRegression
+
+classifier = LogisticRegression(random_state=0)
+classifier.fit(X_train,y_train)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
