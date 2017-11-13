@@ -15,4 +15,3 @@
 6. **Classification of Handwritten Digits using Two Hidden Layer Neural Network.ipynb**
    2 Hidden layer NN modelled and performance analysed for diff epochs, diff activation funcs & diff training set size
 
-
