@@ -1,7 +1,7 @@
 # Classification-of-Handwritten-Digits-MNIST
 # Libraries required: idx2numpy, tensorflow, theano & keras 
 
-Notebook Descriptions: 
+**Notebook Descriptions:** 
 1. Classification of Handwritten Digits using Logistic Regression Classifier.ipynb
    Logistic Regression Modeled against scaled and unscaled data.
 2. Change in Parameter Analysis for Logistic Regression.ipynb
