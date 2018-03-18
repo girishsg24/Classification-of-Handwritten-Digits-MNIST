@@ -1,4 +1,6 @@
 # Classification-of-Handwritten-Digits-MNIST
+Implemented and compared the performance of below Classifiers using Cross-validation & error metrics for classification Handwritten Digits.
+Linear classifier, K-nearest neighbor classifier, RBF neural network,1 & 2-hidden layer Neural Network
 # Libraries required: idx2numpy, tensorflow, theano & keras 
 
 **Notebook Descriptions:** 
